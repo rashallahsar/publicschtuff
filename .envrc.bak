@@ -1,0 +1,4 @@
+# Force direnv to use Fish syntax
+if status --is-interactive
+    source ~/Documents/publicschtuff/venv/bin/activate.fish
+end
